@@ -192,3 +192,21 @@ let totalCost = products
   .reduce((sum, item) => sum + item.price, 0); // সব দামের যোগফল [1.3]
 
 console.log(`মোট খরচ: ${totalCost} টাকা`); 
+let arr9 = ["apple","banana","lichu","kola"];
+
+arr9.forEach((val)=>{
+    console.log(val);
+})
+arr9.unshift("Mamun")
+console.log(arr);
+for (let i = 1; i<=arr9.length; i++){
+    console.log(arr9[i]);
+}
+arr9.shift()
+console.log(arr);
+arr9.push("Rafi")
+console.log(arr9);
+arr9.pop()
+console.log(arr9);
+arr9.shift()
+console.log(arr9);
