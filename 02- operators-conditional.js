@@ -1,5 +1,5 @@
 // 1️⃣ Arithmetic Operators
-// let a = 10;
+let a = 10;
 let b = 3;
 
 console.log(a + b); // 13
